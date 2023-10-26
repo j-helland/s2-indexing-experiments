@@ -36,7 +36,7 @@ func (e *Entry) Key() uint64 {
 // Benchmarking constants.
 const B_S2_LEVEL = 24
 const B_NUM_REGIONS = 100				 // Number of disjoint spatial regions to sample points from.
-const B_NUM_INSERTS = 1_000_000  // Number of random insertions to perform.
+const B_NUM_INSERTS = 10_000_000  // Number of random insertions to perform.
 
 func (r *BenchRNG) sampleCoordinates(region s2.Rect, num int) []s2.LatLng {
 	var coords []s2.LatLng
