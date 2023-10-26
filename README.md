@@ -13,3 +13,5 @@ The following graph shows benchmark results for 10M uniform random lookups of 1M
 All non-hashmap data structures tested here require significantly more memory (~5x more in these benchmarks). This is a known problem with traditional radix trees, which typically have a large number of unused children nodes; various enhancements have been made to compress the tree
 - [Adaptive Radix Tree (ART)](https://db.in.tum.de/~leis/papers/ART.pdf) 
 - [Pruning Radix Tree](https://github.com/wolfgarbe/PruningRadixTrie)
+
+NOTE: These benchmarks were run on an M1 Macbook Pro 16 GB running Ventura 13.4.1
